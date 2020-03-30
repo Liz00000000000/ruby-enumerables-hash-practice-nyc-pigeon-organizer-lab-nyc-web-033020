@@ -8,6 +8,7 @@ def nyc_pigeon_organizer(data)
       :color => [
         data[:color].each do |color|
             if color.include?(bird)
+              binding.pry 
             color
             end
         end
@@ -24,7 +25,7 @@ def nyc_pigeon_organizer(data)
       ]
           }
        end
-       
+
        data[:gender][:female].each do |bird|
          hash[bird] = {
            :color => [
