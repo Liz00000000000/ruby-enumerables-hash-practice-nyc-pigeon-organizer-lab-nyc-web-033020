@@ -10,7 +10,7 @@ def nyc_pigeon_organizer(data)
                   end ],
       :gender => ["male"],
       :lives => [data[:lives].each do |place|
-                place.include?(bird) place
+                 place.include?(bird) place
                  end ]
     }
     end
