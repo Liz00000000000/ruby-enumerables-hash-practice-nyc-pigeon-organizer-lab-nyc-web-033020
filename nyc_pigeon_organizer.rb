@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
         data[:color].each do |color|
         #binding.pry
             if color.include?(bird)
-            color
+            color.to_s
             end
         end
 
