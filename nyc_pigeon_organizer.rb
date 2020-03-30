@@ -8,9 +8,9 @@ data.each do |colors_gender_lives, values|
     array.each do |name|
       if hash[name] == nil
         hahs[name] = { }
-    end 
-    end 
+    end
+    end
 
 
-  
+
 end
