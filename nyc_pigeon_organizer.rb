@@ -29,4 +29,5 @@ hash.each do |name, values|
       end
     end
   end
+  return hash 
 end
