@@ -33,6 +33,6 @@ def nyc_pigeon_organizer(data)
                          hash[bird][:color] << place
                                 end
             end
-pp hash
+return hash
 
 end
