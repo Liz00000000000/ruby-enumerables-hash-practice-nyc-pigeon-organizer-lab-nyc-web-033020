@@ -5,9 +5,9 @@ def nyc_pigeon_organizer(data)
 
   data[:gender][:male].each do |bird|
     hash[bird] = {
-      :color => data[:color].each do |color |
+      :color => [data[:color].each do |color |
         color.include?(bird) color
-      end 
+      end ]
       :gender =>
       :lives =>
     }
