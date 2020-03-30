@@ -15,3 +15,4 @@ data.each do |colors_gender_lives, values|
        end
     end
 end
+end 
