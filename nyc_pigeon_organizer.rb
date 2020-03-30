@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
     hash[bird] = {
       :color => [
         data[:color].each do |color|
-        binding.pry 
+        #binding.pry   
             if color.include?(bird)
             color
             end
