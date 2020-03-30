@@ -23,7 +23,7 @@ def nyc_pigeon_organizer(data)
            :color => [ ],
            :gender => ["female"],
            :lives => [
-             
+             data[:lives]
            ]
                }
                         data[:color].each do |color |
