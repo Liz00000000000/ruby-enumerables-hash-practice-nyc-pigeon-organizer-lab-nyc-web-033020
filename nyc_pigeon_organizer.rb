@@ -30,4 +30,4 @@ hash.each do |name, values|
     end
   end
 end
-hash 
+
