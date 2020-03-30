@@ -29,7 +29,7 @@ def nyc_pigeon_organizer(data)
                              hash[bird][:color] << color
                            end 
                          end
-                         
+
                         data[:lives].each do |place|
                          if place.include?(bird)
                          hash[bird][:color] << place
