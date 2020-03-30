@@ -15,20 +15,3 @@ data.each do |colors_gender_lives, values|
        end
     end
 end
-hash.each do |name, values|
-  values.each do |hashvalue, array|
-    data.each do |colors_gender_lives|
-      values.each do |value, array|
-
-        array.each do |element|
-          if element == name && hashvalue == colors_gender_lives
-
-            hash[name][hashvalue] << value.to_s
-          end
-        end
-      end
-    end
-  end
-  return hash
-end
-end 
