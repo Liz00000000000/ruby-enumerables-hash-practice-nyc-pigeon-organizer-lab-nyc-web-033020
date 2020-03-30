@@ -8,7 +8,7 @@ def nyc_pigeon_organizer(data)
       :color => [
         data[:color].each do |color, birds|
         #binding.pry
-            if color.include?(bird)
+            if birds.include?(bird)
             color
             end
         end
