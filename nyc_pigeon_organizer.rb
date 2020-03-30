@@ -22,7 +22,9 @@ def nyc_pigeon_organizer(data)
          hash[bird] = {
            :color => [ ],
            :gender => ["female"],
-           :lives => [ ]
+           :lives => [ 
+             
+           ]
                }
                         data[:color].each do |color |
                         color.include?(bird)
