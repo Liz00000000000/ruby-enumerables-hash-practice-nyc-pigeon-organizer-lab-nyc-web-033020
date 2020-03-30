@@ -24,6 +24,10 @@ hash.each do |name, values|
           if element == name && hashvalue == colors_gender_lives
 
             hash[name][hashvalue] << value.to_s
-
-
-end
+          end 
+        end
+      end 
+    end 
+  end 
+end 
+hash 
